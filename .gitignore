@@ -1,10 +1,13 @@
 # compiled output
 /dist
 /node_modules
-backend/build
 build
 backend/dist
 backend/node_modules
+backend/build
+frontend/node_modules
+frontend/build
+frontend/dist
 
 # Logs
 logs
@@ -57,3 +60,14 @@ pids
 
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# next.js
+frontend/.next/
+frontend/out/
+
+# production
+frontend/build
+
+# typescript
+frontend/*.tsbuildinfo
+frontend/next-env.d.ts
